@@ -19,31 +19,39 @@ evASIon
 \subsubsection{Utilisateurs du produit}
 
 \textbf{• Utilisateurs directs du produit}
+
 Nous visons toutes sortes d’utilisateurs souhaitant se divertir en communauté et aimant partager ses expériences. Le service étant sur le Web, les personnes voulant y accéder devront avoir une connaissance basique d’Internet, sans particulièrement maîtriser celui-ci car le site sera ergonomique et facile d’accès. \\
 
 \textbf{• Priorité assignée aux utilisateurs}
-Il y a trois types d’utilisateurs. Les non-inscrits : ils peuvent visualiser les événements et activités sans possibilité de s’inscrire ou d’en créer. Les inscrits : ils peuvent utiliser les fonctionnalités décrites dans la partie III de ce cahier des charges. Les administrateurs : qui, en plus des fonctionnalités autorisées aux utilisateurs, doivent gérer les informations envoyées par les utilisateurs et ont la possibilité d’ajouter des activités. \\
+
+Il y a trois types d’utilisateurs. Les non-inscrits : ils peuvent accéder à la page d'accueil avant connexion, avoir un aperçu du site et s'inscrire. Les inscrits : ils peuvent utiliser les fonctionnalités décrites dans la partie 3.3.2 de ce cahier des charges. Les administrateurs : qui, en plus des fonctionnalités autorisées aux utilisateurs, doivent gérer les informations envoyées par les utilisateurs et ont tout les droits d'ajout et de suppression. \\
 
 \textbf{• Implication nécessaire de la part des utilisateurs dans le projet}
-Les utilisateurs doivent renseigner leurs préférences après leur inscription, ils doivent créer et gérer eux-mêmes leurs événements et leurs inscriptions aux événements afin de faire vivre le site. \\
+
+Les utilisateurs doivent renseigner leurs préférences après leur inscription, ils doivent créer et gérer eux-mêmes leurs événements et leurs inscriptions aux événements afin de faire vivre le site. Il peuvent créer des activités et catégories. \\
 
 \textbf{• Utilisateurs concernés par les opérations de maintenance du produit}
-Aucune opération de maintenance n’est nécessaire par les utilisateurs simples. Le produit nécessite cependant un ou plusieurs administrateurs qui doivent ajouter ou/et supprimer des activités encore non répertoriées sur le site, et donc mettre à jour l’application.
+
+Aucune opération de maintenance n’est nécessaire par les utilisateurs simples. Le produit nécessite cependant un ou plusieurs administrateurs qui doivent contrôler les ajouts d'activités et de catégories encore non répertoriées sur le site, et donc mettre à jour l’application.
 
 \subsection{Contraintes sur le projet}
 
 \subsubsection{Contraintes non négociables}
 
 \textbf{• Contraintes sur la conception de la solution}
+
 Le produit sera accessible à travers un navigateur Web afin d’être le plus accessible possible, il devra être compatible avec les principaux navigateurs : Google Chrome, Mozilla Firefox, Safari( et Microsoft Edge (ou Internet Explorer)). \\
 
 \textbf{• Applications « partenaires » (avec lesquelles le produit doit collaborer)}
+
 Google map possiblement. \\
 
 \textbf{• Lieux de fonctionnement prévus}
+
 Le produit sera accessible via un navigateur à travers n’importe quel support. Le site devra donc être lisible et fonctionnel aussi bien sur PC que sur smartphone. \\
 
 \textbf{• De combien de temps les développeurs disposent-ils pour le projet ?}
+
 Le projet sera développé durant un semestre. A l’issu de ce semestre, le projet devra arriver à la version la plus avancée possible.
 
 \subsubsection{Glossaire et conventions de dénomination}
@@ -83,9 +91,11 @@ Le produit sera proposé sur le Web dans un premier temps, via l’utilisation d
 
 \textbf{• Description sommaire des cas d’utilisation principaux}
 
-L’utilisateur peut créer de nouveaux événements manuellement (choix du lieu ou point géographique, date, nombre de personnes)
-L’utilisateur peut s’inscrire à un événements de son choix
-L’administrateur peut ajouter une activité à laquelle sera liée les événements des utilisateurs. (description, site web, photos,prix)
+L’utilisateur peut créer de nouveaux événements manuellement (choix du lieu ou point géographique, date, nombre de personnes).
+L’utilisateur peut s’inscrire à un événements de son choix.
+L’utilisateur peut ajouter une activité à laquelle sera liée les événements des utilisateurs. (description, site web, photos,prix).
+L'utilisateur peut ajouter de nouvelles catégories hiérarchisées.
+L'administrateur doit contrôler la création des activités et catégories.
 
 \subsubsection{Exigences fonctionnelles et exigences sur les données}
 
@@ -107,7 +117,7 @@ L’administrateur peut ajouter une activité à laquelle sera liée les événe
 
 10 & Exigence fonctionnelle & Possibilité de rechercher des événements ou activités selon des critères & Pour trouver des événements ou activités selon les goûts de l'utilisateur\\\hline %& Gestion des données & L'utilisateur recherche des événements selon ses critères & 5 & 5 & 11 \\\hline
 
-11 & Exigence utilisateur & L'utilisateur ou l'administrateur doit associer des catégories et tags aux événements et activités créés & Pour permettre la recherche par catégorie\\\hline %& Gestion des données & Chaque événement est lié au moins à une catégorie & 5 & 5 & \\\hline
+11 & Exigence utilisateur & L'utilisateur ou l'administrateur doit associer une ou plusieurs catégories aux activités créées & Pour permettre la recherche par catégorie\\\hline %& Gestion des données & Chaque événement est lié au moins à une catégorie & 5 & 5 & \\\hline
 
 \caption{Extrait des Exigences Fonctionnelles}
 \end{longtable} 
@@ -118,29 +128,35 @@ L’administrateur peut ajouter une activité à laquelle sera liée les événe
 \subsubsection{Ergonomie et convivialité du produit}
 
 \textbf{• L’interface}
+
 L’interface doit être épurée, claire et simple d’utilisation, un utilisateur sans grandes connaissances d’internet doit pouvoir s’y retrouver facilement. Les événements doivent pouvoir être triés/rangés dans différentes sections (Par activité, date, lieu, …). Et un lien direct vers la visualisation des événements doit être accessible sur la page d’accueil.
 L’utilisateur doit avoir un accès rapide à ses préférences et pouvoir s’inscrire à un événement d’un simple clic. \\
 
 \textbf{• Le style du produit}
+
 Le site internet doit susciter la confiance et le partage. Le produit doit apparaître comme étant moderne et avec une connotation culturelle.
 
 \subsubsection{Fonctionnement du produit}
 
 \textbf{• Maintenance du produit}
+
 Le site Web doit être mis à jour tout les .. , mais aussi en fonction des nouvelles fonctionnalités et mises à jours des outils utilisés. 
 La base de donnée doit être complétée au fur et à mesure, pour cela l’ajout d’une activité doit se faire en moins de 5 minutes. 
 Le site Web doit être maintenu, mise à jour et contrôlé par les administrateurs, et certains développeurs ou utilisateurs autorisés.
 
 \textbf{• Exigences en matière de support}
+
 Une boîte à idée, ainsi qu’un système de tickets doit être mis à disposition, afin de corriger les problèmes et répondre aux attentes des utilisateurs.
 Une interface FAQ doit être mis à disposition des utilisateurs afin de faciliter l’utilisation du produit.
 
 \textbf{• Exigences de portabilité}
+
 Le produit doit fonctionner sur des environnements Linux, Windows et Mac, sur les navigateurs Mozilla, Chrome, Chromium, Internet Explorer. Le produit doit également fonctionner sur smartphone de type Android, Apple et Google. En ce qui concerne l’éventuelle application, elle devra être développée en priorité sur Android.
 
 \subsubsection{Maintenance, support, portabilité, installation du produit}
 
 \textbf{• Fiabilité et disponibilité}
+
 Le produit devrait être disponible pour une utilisation sans interruption tout au long de l’année.  
 
 \subsubsection{Sécurité}

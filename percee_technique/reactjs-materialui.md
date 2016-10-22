@@ -8,10 +8,9 @@
 Dans le but de tester la faisabilité du projet en utilisant *ReactJS* comme framework côté client, une percée technique a été réalisée. Nous avons dû reproduire une portion de la maquette de la page d'accueil en tant qu'utilisateur connecté.
 Nous avons choisi de coupler *React* au framework *Material-UI* permettant de récupérer un grand nombre d'éléments *ReactJS* (barre de navigation, bouton, ect ...) déjà stylisés et entièrement personnalisables.
 
-Les éléments et fonctionnalités suivantes devaient être présentes:
+Les éléments et fonctionnalités suivants devaient être présents:
 1. barre de navigation (~= Appbar) en haut de la page web
-2. bouton de forme circulaire, prenant l'apparance d'une image de profil, dans le coin droit
-de la barre de navigation
+2. bouton de forme circulaire, prenant l'apparance d'une image de profil, dans le coin droit de la barre de navigation
 3. click sur le bouton (**fonctionnalité 2**) ouvrant un bandeau de navigation latéral droit, et passant au dessus de la page web.
 4. bouton dans dans le coin gauche de la barre de navigation
 5. click sur le bouton (**fonctionnalité 4**) ouvrant un bandeau de navigation latéral gauche, décalant le reste du contenu de la page

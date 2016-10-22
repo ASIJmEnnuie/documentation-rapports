@@ -14,15 +14,15 @@ Frédéric BAUCHER
 
 ## Ce qui a été réalisé
 * Percée technique Websockets niveau serveur
-* Connexion client-serveur (ReactJS-WebSockets) effectuée : possibilité de visualiser les évènements (mis en durs dans la partie serveur), de faire une recherche par lieu ou par date des évènements.
-* Commencement du modèle d'usage
+* Connexion client-serveur (ReactJS-WebSockets) effectuée : possibilité de visualiser les évènements (mise en durs dans la partie serveur), de faire une recherche par lieu ou par date des évènements.
+* Commencement du modèle de domaine
 
 ## Discussions
 * Quel système de gestion de base de données utiliser ?
-* Corrections et mises en acccord sur le modèle d'usage
+* Corrections et mises en acccord sur le modèle de domaine
 
 ## Objectifs prochaine réunion 03/11/2016
-* Mettre à jour et terminer le Modèle d'usage
+* Mettre à jour et terminer le Modèle de domaine
 * Créer le lien serveur - base de données (Utilisation JPA)
 * Déterminer l'impact au niveau du serveur lors d'une requête client (temps de réponse ?)
 * Réaliser quelques unes des maquettes en ReactJS (commencement du projet suite aux PT)

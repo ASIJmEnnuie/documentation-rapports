@@ -1,5 +1,5 @@
 # Compte Rendu Réunion du 16/09/2016 : Réunion de lancement
-*18h15 - 20h15*
+*18h15 - 19h40*
 
 ## Responsable
 [Maëva SALLANDRE](https://github.com/Lueva)

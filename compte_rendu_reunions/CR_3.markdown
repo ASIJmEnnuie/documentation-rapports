@@ -15,6 +15,7 @@ Frédéric BAUCHER
 ## Ce qui a été réalisé
 * Percée technique ReactJS : Technologie retenue pour le projet
 * Cahier des charges complet
+* Liste des exigences qualifiées
 * Création des Maquettes page d'accueil (mode connecté) et visualisation des évènements
 
 ## Discussions

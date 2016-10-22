@@ -13,6 +13,7 @@ Frédéric BAUCHER
 
 ## Ce qui a été réalisé
 * Réalisation de l'ensemble des maquettes des versions 1 et 2 (exception faite de la maquette page administrateur)
+* Cas d'utilisation rédigés
 * Liste des versions du site
 * Maquette ReactJS finalisée, bugs corrigés.
 
@@ -21,7 +22,7 @@ Frédéric BAUCHER
 * Quelle alternative à GraphQL ? => REST ? WebSockets ?
 
 ## Objectifs prochaine réunion 21/10/2016
-* Création du modèle d'usage
+* Création du modèle de domaine
 * Percée Technique sur les WebSockets
 * Réalisation en ReactJS d'une page de visualisation d'évènements
 * Parvenir à faire le lien du client vers le serveur de l'application exemple
