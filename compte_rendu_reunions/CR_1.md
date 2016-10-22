@@ -2,13 +2,13 @@
 *18h15 - 20h15*
 
 ## Responsable
-* [Maëva SALLANDRE](https://github.com/Lueva)
+[Maëva SALLANDRE](https://github.com/Lueva)
 
 ## Participants
-Frédéric BAUCHER
-[Maëva SALLANDRE](https://github.com/Lueva)
-[Enora GICQUEL](https://github.com/Kahmeset)
-[Morgane LEGROS](https://github.com/morgane1806)
+Frédéric BAUCHER  
+[Maëva SALLANDRE](https://github.com/Lueva)  
+[Enora GICQUEL](https://github.com/Kahmeset)  
+[Morgane LEGROS](https://github.com/morgane1806)  
 [Thibault THEOLOGIEN](https://github.com/MacBootglass)
 
 

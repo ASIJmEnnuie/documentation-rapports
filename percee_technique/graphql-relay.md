@@ -5,8 +5,8 @@
 * [Enora GICQUEL](https://github.com/Kahmeset)
 
 ## Résumé
-Suite à la réunion de lancement, nous avons pendant deux semaines réalisé une percée technique en utilisant *GraphQL* afin de tester la faisabilité du projet via cette technologie pour le côté serveur. Le but était de réaliser une vue tout simple d'une liste d'utilisateur grâce à ce langage de requête, avec des données mises en dures dans le code dans un premier temps. 
-Le framework *Relay* a été testé également, il permettait de faire communiquer *GraphQL* et *ReactJS* pour la récupération des données. 
+Suite à la réunion de lancement, nous avons pendant deux semaines réalisé une percée technique en utilisant *GraphQL* afin de tester la faisabilité du projet via cette technologie pour le côté serveur. Le but était de réaliser une vue tout simple d'une liste d'utilisateur grâce à ce langage de requête, avec des données mises en dures dans le code dans un premier temps.   
+Le framework *Relay* a été testé également, il permettait de faire communiquer *GraphQL* et *ReactJS* pour la récupération des données.  
 Suite aux difficultés rencontrées et dû au fait que les technologies *GraphQL* et *Relay* ne soient à ce jour pas assez mûres (surtout pour une utilisation en Java), nous avons décidé d'abandonner ce langage de requête et de nous concentrer sur l'utilisation de [Websockets](https://github.com/ASIJmEnnuie/PT_WebSockets.git).
 
 
