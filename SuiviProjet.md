@@ -19,8 +19,8 @@ Légende :
 | Interface de création d’un événement | x | x | o | o |
 | Interface de création d’une activité | o | o | o | o |
 | Version 2 | - | o | - | o |
-| Page d’accueil pré-connection | x | o | x | o |
-| Interface d’inscription | x | o | x | o |
+| Page d’accueil pré-connection | x | x | x | o |
+| Interface d’inscription | x | x | x | o |
 | Interface de visualisation d’un profil utilisateur | x | x | o | o |
 | Interface administrateur | o | o | o | o |
 | Version 3 | - | o | o | o |
