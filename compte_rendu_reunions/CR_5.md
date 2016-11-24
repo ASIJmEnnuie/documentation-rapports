@@ -33,7 +33,6 @@ Frédéric BAUCHER
 ## Objectifs à plus long terme
 * Comment organiser les tests ?
 * Automatisation des tests : Utilisation de Travis, Jenkins... ?
-* 
 
 ## Liens utiles:
 * [Trello](https://trello.com/b/5UbSuHw2/asi-j-m-ennuie)
