@@ -31,4 +31,5 @@ Frédéric BAUCHER
 * [Trello](https://trello.com/b/5UbSuHw2/asi-j-m-ennuie)
 * [Documentation](https://github.com/ASIJmEnnuie/documentation-rapports)
 * [Percée Technique connexion Client/Serveur + BD](https://github.com/ASIJmEnnuie/PT_JPA_Postgres/tree/jpa_websockets)
+* [Partie Client](https://github.com/ASIJmEnnuie/evasion)
 
