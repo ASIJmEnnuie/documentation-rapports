@@ -12,19 +12,26 @@ Frédéric BAUCHER
 
 ## Ce qui a été réalisé
 * Partie client : Usecase Création activité et Création évènement
-* back?
+* Aucune solution trouvée pour le problème d'initialisation de la BD via springboot
  
 ## Discussions
+* Blocage au niveau de l'initialisaiton de la BD au niveau de springboot => Abandon
+* Alternative : initialisation de la BD au niveau de Docker
 * Nécessité de terminer les versions 1 et 2 du partie client avant la fin du projet
 * Avancement côté back envisageable, sur les usecase de la partie client version 1 et 2
 * Abandon de la version administrateur
+* Remontée du use case "participer à un évènement"
+* Si besoin, découper certains use case pour pouvoir les terminer complètement
+* Possibilité de mettre un lien vers les maquettes dans le tableau du suivi de projet.
 
 ## Objectifs prochaine réunion 08/12/2016
 * MAJ du suivi de projet et des versions
 * Partie client : usecase Visualisation activité et évènement, avancer le usecase Recherche d'activité
-* Partie back : ...
-À plus long terme :
-* Partie client : terminer les versions 1 et 2, documentation avec une "diagramme de classe"
+* Partie back : Connecter Serveur et Client sur le dépot principal du projet
+* Partie back : Création de la base de données complète
+
+## À plus long terme :
+* Partie client : terminer les versions 1 et 2, documentation avec un "diagramme de classe"
 * Partie back : implémenter les usecase de la version 1 et 2
 
 ## Liens utiles:
