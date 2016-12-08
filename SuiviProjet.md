@@ -12,9 +12,7 @@ Légende :
 | Version 1 | v | v | / | / |
 | Interface française et anglaise - multilanguage |  |  | / |  |
 | Page d'accueil post-connexion | v | v | / | o |
-| Interface de recherche d'une activité | v | v | o | o |
 | Interface de recherche d'un événement | v | v | / | / |
-| Interface de visualisation d’une activité | v | v | / | o |
 | Interface de visualisation d’un événement | v | v | / | o |
 | Interface de création d’un événement | v | v | v | o |
 | Interface de création d’une activité | v | v | v | o |
@@ -24,6 +22,8 @@ Légende :
 | Inscription par un utilisateur à un événement | v | v | o | o |
 | Désinscription par un utilisateur à un événement | v | v | o | o |
 | Version 3 |  |  |  |  |
+| Interface de recherche d'une activité | v | v | o | o |
+| Interface de visualisation d’une activité | v | v | / | o |
 | Interface administrateur | o | o | o | o |
 | Interface de visualisation d’un profil utilisateur | v | v | o | o |
 | Ajout de catégories aux activités. Hiérarchisation des catégorie | o | o | o | o |
