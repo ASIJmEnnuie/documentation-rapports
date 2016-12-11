@@ -37,7 +37,7 @@ Fonction Ajout d'un évènement : (possibilité d'ajouter le prix éventuellemen
 @MessageMapping("/ajoutEvenements")
 @SendTo("/topic/creationEvenements")
 public Long AddEvents(String activity, String name, String place, 
-									 		String date, String time, String nbPlaces, 
+									 		String date, String time, int nbPlaces, 
                       String description) {
 ```
 
