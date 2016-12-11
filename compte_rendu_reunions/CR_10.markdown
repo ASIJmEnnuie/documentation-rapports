@@ -1,0 +1,35 @@
+# Compte Rendu Réunion du 08/12/2016
+*17h15 - 18h30*
+
+## Responsable
+[Maëva SALLANDRE](https://github.com/Lueva)
+
+## Participants
+Frédéric BAUCHER  
+[Maëva SALLANDRE](https://github.com/Lueva)  
+[Enora GICQUEL](https://github.com/Kahmeset)  
+[Morgane LEGROS](https://github.com/morgane1806)
+[Thibault THEOLOGIEN](https://github.com/MacBootglass)
+
+## Ce qui a été réalisé
+* Partie client : Avancement des Usecases
+* Mise à jour du suivi des versions
+ 
+## Discussions
+* Dernière semaine de développement : Il faut arriver à un contenu final utilisable.
+* Faire la documentation pour un futur développeur : Technologies utilisées, ce qui a été fait, ce qui est à faire...
+* Partie visualisation activité redescendue en version 2
+
+## Objectifs prochaine réunion 16/12/2016
+* MAJ du suivi de projet et des versions
+* Détailler la signature de chaque méthode utilisée.
+* Partie client : usecase Visualisation évènement
+* Partie client : Connecter Serveur et Client sur le dépot principal du projet
+* Partie back : Création de la base de données complète
+* Partie back : Création des méthodes nécessaires aux version 1 et 2
+
+## Liens utiles:
+* [Trello](https://trello.com/b/5UbSuHw2/asi-j-m-ennuie)
+* [Documentation](https://github.com/ASIJmEnnuie/documentation-rapports)
+* [Dépôt du projet final](https://github.com/ASIJmEnnuie/evasion)
+
