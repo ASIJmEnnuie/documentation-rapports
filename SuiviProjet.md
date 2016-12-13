@@ -13,12 +13,12 @@ Légende :
 | Interface française et anglaise - multilanguage |  |  | / |  |
 | Page d'accueil post-connexion | v | v | / | o |
 | Interface de recherche d'un événement | v | v | / | / |
-| Interface de visualisation d’un événement | v | v | / | o |
-| Interface de création d’un événement | v | v | v | o |
-| Interface de création d’une activité | v | v | v | o |
-| Version 2 | v | o | / | o |
+| Interface de visualisation d’un événement | v | v | / | / |
+| Interface de création d’un événement | v | v | v | / |
+| Interface de création d’une activité | v | v | v | / |
+| Version 2 | v | o | / | / |
 | Page d’accueil pré-connexion | v | v | v | o |
-| Interface d’inscription | v | v | v | o |
+| Interface d’inscription | v | v | v | / |
 | Inscription par un utilisateur à un événement | v | v | o | o |
 | Désinscription par un utilisateur à un événement | v | v | o | o |
 | Version 3 |  |  |  |  |
