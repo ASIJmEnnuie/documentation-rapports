@@ -45,7 +45,7 @@ public Long AddEvents(String activity, String name, String place,
 Noms attributs :
 
     private Long id_act;
-    private String nom_act;
+    private String nomAct;
     private String adresse;
     private String description;
     private String site;
@@ -70,11 +70,11 @@ public List<Activite> getActivities(String name, String adress,
                                     String adminmodif, String datemodif) 
 ```
 
-Fonction Recherche de tous les évènements :
+Fonction Recherche de toutes les activités :
 ```
 @MessageMapping("/activites")
 @SendTo("/topic/listeActivites")
-public List<Activite> getAllActivitie
+public List<Activite> getAllActivities()
 ```
 
 ## Gestion utilisateurs
@@ -95,7 +95,7 @@ Connexion :
 @SendTo("/topic/connexion")
 public Long connexion(String email, String mdp)
 ```
-Inscription 
+Inscription :
 ```
 @MessageMapping("/ajoutCompte")
 @SendTo("/topic/userCreation")
@@ -108,6 +108,9 @@ public Long AddUser(String nom, String prenom, String dateNaissance,
 
 --TODO--
 ## Utilisation du site
-inscriptionEvent
-desinscriptionEvent
-
+Inscription ou Désinscription à un évenement :
+```
+@MessageMapping("/attendEvenement")
+@SendTo("/topic/attendEvenement")
+public Long attendEvenement(String idUser, String idEvt)
+```
