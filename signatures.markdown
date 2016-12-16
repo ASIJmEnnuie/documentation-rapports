@@ -18,7 +18,7 @@ Noms attributs :
     
 Fonction Recherche d'évènements avec critère(s):
 ```
-@MessageMapping("/evenementsAvecCritere")
+@MessageMapping("/app/evenementsAvecCritere")
 @SendTo("/topic/eventlistWithCriteria")
 public List<Evenement> getEvents(String name, String date, 
                String category, String price, String place,
@@ -27,14 +27,14 @@ public List<Evenement> getEvents(String name, String date,
 
 Fonction Recherche de tous les évènements :
 ```
-@MessageMapping("/events")
+@MessageMapping("/app/events")
 @SendTo("/topic/eventlist")
 public List<Evenement> eventList()
 ```
 
 Fonction Ajout d'un évènement : (possibilité d'ajouter le prix éventuellement)
 ```
-@MessageMapping("/ajoutEvenements")
+@MessageMapping("/app/ajoutEvenements")
 @SendTo("/topic/eventCreation")
 public Long AddEvents(String activity, String name, String place, 
 									 		String date, String time, int nbPlaces, 
@@ -54,7 +54,7 @@ Noms attributs :
     
 Fonction Ajout d'une activité :
 ```
-@MessageMapping("/ajoutActivites")
+@MessageMapping("/app/ajoutActivites")
 @SendTo("/topic/creationActivites")
 public Long AddActivities(String nom, String adresse, 
 													String description, String site, 
@@ -63,7 +63,7 @@ public Long AddActivities(String nom, String adresse,
 
 Fonction d'ajout d'activité avec critère(s) :
 ```
-@MessageMapping("/activitesAvecCritere")
+@MessageMapping("/app/activitesAvecCritere")
 @SendTo("/topic/listeActivitesCritere")
 public List<Activite> getActivities(String name, String adress,
 																		String description, String website,
@@ -72,7 +72,7 @@ public List<Activite> getActivities(String name, String adress,
 
 Fonction Recherche de toutes les activités :
 ```
-@MessageMapping("/activites")
+@MessageMapping("/app/activites")
 @SendTo("/topic/listeActivites")
 public List<Activite> getAllActivities()
 ```
@@ -91,13 +91,13 @@ Noms attributs :
     
 Connexion :
 ```
-@MessageMapping("/connexionUser")
+@MessageMapping("/app/connexionUser")
 @SendTo("/topic/connexion")
 public Long connexion(String email, String mdp)
 ```
 Inscription :
 ```
-@MessageMapping("/ajoutCompte")
+@MessageMapping("/app/ajoutCompte")
 @SendTo("/topic/userCreation")
 public Long AddUser(String nom, String prenom, String dateNaissance,
 										String genre, String email, String mdp, 
@@ -110,7 +110,7 @@ public Long AddUser(String nom, String prenom, String dateNaissance,
 ## Utilisation du site
 Inscription ou Désinscription à un évenement :
 ```
-@MessageMapping("/attendEvenement")
+@MessageMapping("/app/attendEvenement")
 @SendTo("/topic/attendEvenement")
 public Long attendEvenement(String idUser, String idEvt)
 ```
