@@ -16,6 +16,8 @@ Pour cela, nous nous sommes concentrés sur une des fonctionnalités de la maque
 
 * __Côté client__
 
+  Rien de notable
+
 * __Côté serveur__
 
 ## Liens utiles
