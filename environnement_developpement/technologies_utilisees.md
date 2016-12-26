@@ -35,5 +35,11 @@
 
   Dans notre cas, docker a permis à tous les développeurs d'avoir aisément un environnement de développement identique, et de déployer rapidement des serveurs (web, base de données).
 
+  C'est à partir d'un fichier portant le nom Dockerfile que l'on peut créer un container _docker_. Au sein de ce dernier, des mots clés permettent de définir l'ensemble des paramètres du container, comme les ports utilisées, ou encore les commandes exécutées au lancement.
 
-* [docker-compose](https://docs.docker.com/compose/) est une extension de docker permettant de définir et de démarrer des applications docker "multi-container".
+
+* [docker-compose](https://docs.docker.com/compose/) est une extension de docker permettant de définir et de démarrer des applications docker "multi-container". Les containers peuvent ainsi partager des fichiers ou un domaine de diffusion (au niveau réseau). Cela permet également de démarrer en une seule fois l'ensemble des containers docker d'un projet.
+
+  De plus, les commandes bash de docker étant souvent assez longues et complexes, docker-compose nous permet par le biais d'un fichier docker-compose.yml de définir de manière beaucoup plus intuitive la configuration d'exécution des containers (redirection de ports, définition des répertoires partagées entre la machine hôte et le container, ect ...)
+
+  Merci de vous référer au fichier [containers_dockers.md](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_dockers.md) pour de plus amples informations sur l'utilisation et la configuration de docker au sein de ce projet.
