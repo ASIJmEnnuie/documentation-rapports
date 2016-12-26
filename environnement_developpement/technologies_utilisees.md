@@ -17,6 +17,7 @@
   * minification des fichiers _JavaScript_, _HTML_ et _CSS_
   * actualisation de la page web (nécessite l'ajout d'une extension sur le navigateur web) lors de la sauvegarde des fichiers de développement
 
+
 ## Serveur:
 
   * [maven]()
@@ -27,6 +28,7 @@
 
   * [postgresql]()
 
+
 ## Ensemble du projet:
 
 * [docker](https://www.docker.com/what-docker) permet d'automatiser le déploiement d'applications dans des conteneurs logiciels. Il peut empaqueter une application et ses dépendances dans un conteneur isolé, qui pourra être exécuté sur n'importe quelle machine Linux, MacOS ou Windows. Ceci permet d'étendre la flexibilité et la portabilité d’exécution d'une application ([cf wikipedia](https://fr.wikipedia.org/wiki/Docker_(logiciel)).
@@ -35,4 +37,3 @@
 
 
 * [docker-compose](https://docs.docker.com/compose/) est une extension de docker permettant de définir et de démarrer des applications docker "multi-container".
-Parler du compilator + du fait qu'il n'y ait pas de container docker pour la partie java + limite les problèmes d'installation sur la machine hôte (gulp + sass + npm + nodejs ...)
