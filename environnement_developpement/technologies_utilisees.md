@@ -20,10 +20,11 @@
 
 ## Serveur:
 
-  * [maven]()
+  * [maven](https://maven.apache.org) est un logiciel de gestion et d'automatisation de projet Java. Il est basé sur le concept de Project Object Model (POM) qui permet de réunir dans un même fichier (pom.xml) la description d'un projet avec ses dépendances et les directives à suivre pour les installer, telles que la structure, les versions ou encore les bibliothèques souhaitées.
 
+	Pour Evasion, Maven nous a permis de faciliter l'automatisation de la compilation et du déploiement du serveur, ainsi que de gérer toutes les dépendances et les plugins nécéssaires au projet afin que tous les membres du groupe aient les mêmes technologies et les mêmes versions tout au long du développement.
 
-  * [spring-boot]()
+  * [spring-boot](http://projects.spring.io/spring-boot) est une solution du framework Java _Spring_ permettant la création autonome d'applications nécessitant très peu de configuration. Nous avons plus particulièrement utilisé _Spring Data JPA_ qui donne la possibilité d'utiliser facilement des applications nécessitant l'usage de technologies d'accès aux données. 
 
 
   * [postgresql]()
