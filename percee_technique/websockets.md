@@ -20,5 +20,10 @@ Pour cela, nous nous sommes concentrés sur une des fonctionnalités de la maque
 
 * __Côté serveur__
 
+  Contrairement à __GraphQL__, la documentation et les exemples fournis sur les __websockets__ nous ont permis de réalisé la percée technique voulue rapidement et sans problème particulier.
+  
+
+Les websockets ne nous ont posées aucun soucis, et nous avons donc décidé de retenir cette technologie pour la suite de notre projet.
+
 ## Liens utiles
 * http://jmesnil.net/stomp-websocket/doc/
