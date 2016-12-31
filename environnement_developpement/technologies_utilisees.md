@@ -65,4 +65,4 @@
 
   De plus, les commandes bash de docker étant souvent assez longues et complexes, docker-compose nous permet par le biais d'un fichier docker-compose.yml de définir de manière beaucoup plus intuitive la configuration d'exécution des containers (redirection de ports, définition des répertoires partagées entre la machine hôte et le container, ect ...)
 
-  Merci de vous référer au fichier [containers_docker.md](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) pour de plus amples informations sur l'utilisation et la configuration de docker au sein de ce projet.
+  Merci de vous référer au fichier [documentation-rapports/environnement_developpement/containers_docker.md](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) pour de plus amples informations sur l'utilisation et la configuration de docker au sein de ce projet.
