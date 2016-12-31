@@ -15,9 +15,18 @@ Il est cependant bon de noter que le code que nous développions serait obligato
 
 ## [Trello](https://trello.com)
 
+Trello est un outil de gestion de projet en ligne permettant de lister des cartes, représentant des activités, sur différentes planches. Ces différentes cartes peuvent être attribuées à des membres de l'équipe ayant accès au tableau, avoir une échéance fixée, être détaillées à l'aide d'une checklist, et d'autres fonctionnalités.
+
+Nous nous sommes beaucoup servi de Trello au début du projet pour répartir les différents éléments de documentations à produire et lister les tâches à prévoir. Cependant, lorsque nous sommes passés au développement, l'outil ne nous a plus semblé approprié et nous avons commencé à le délaisser.
+
+En effet, la lisibilité du tableau devenait compliquée :
+* Les liens vers la documentation se trouvaient en pièce jointe des cartes et n'étaient donc pas facilement accessibles;
+* Les cartes s'accumulées dans les différentes planches, ce qui rendait le suivi difficile;
+* Les tâches avec échéance envoyaient des notifications sur la date limite même lorqu'elles étaient transférées dans la planche "Fait";
+* Les planches se mélangeaient entre le suivi des tâches, les comptes-rendus de réunion, les différentes technologies envisagée, ce qui rendait le tout très brouillon.
+
+Au final, nous nous sommes servi de Trello pour un suivi complet du projet, ce qui n'était pas adapté. Cet outil est utile pour un suivi des tâches, pour suivre l'avancement et l'attribution à différentes personnes.
+
+Nous avons donc cessé d'utiliser Trello, préférant voir les tâches à faire sur les [comptes-rendus de réunion](https://github.com/ASIJmEnnuie/documentation-rapports/tree/master/compte_rendu_reunions) et le suivi de l'avancement avec un [tableau des différentes fonctionnalités](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/SuiviProjet.md).
 
 ## [Slack](https://slack.com)
-
-Un système de communication nous étant nécessaire, nous avons tout d'abord choisi d'utiliser Slack pour les nombreuses fonctionnalités qu'il présente: création de fils de discussion différents en fonction des sujets, lien avec GitHub ou Trello (bots informant de mis à jour), privatisation des discussions, ect ...
-
-Cependant il est vite apparu que pour un projet aussi "petit" en terme de temps et d'équipe, ce type d'outil était mal adapté, et nous avons préférer utiliser d'autres moyens de communication plus classiques.  
