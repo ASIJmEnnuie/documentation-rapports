@@ -29,4 +29,9 @@ Au final, nous nous sommes servi de Trello pour un suivi complet du projet, ce q
 
 Nous avons donc cessé d'utiliser Trello, préférant voir les tâches à faire sur les [comptes-rendus de réunion](https://github.com/ASIJmEnnuie/documentation-rapports/tree/master/compte_rendu_reunions) et le suivi de l'avancement avec un [tableau des différentes fonctionnalités](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/SuiviProjet.md).
 
+
 ## [Slack](https://slack.com)
+
+Un système de communication nous étant nécessaire, nous avons tout d'abord choisi d'utiliser Slack pour les nombreuses fonctionnalités qu'il présente: création de fils de discussion différents en fonction des sujets, lien avec GitHub ou Trello (bots informant de mis à jour), privatisation des discussions, ect ...
+
+Cependant il est vite apparu que pour un projet aussi "petit" en terme de temps et d'équipe, ce type d'outil était mal adapté, et nous avons préférer utiliser d'autres moyens de communication plus classiques. 
