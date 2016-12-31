@@ -1,32 +1,32 @@
-# Scéma relationnel base de donnée #
+# Schéma relationnel base de donnée #
 ### Ce modèle doit pouvoir couvrir le projet jusqu'à la version 3.
 ### (La clé primaire de chaque table est représentée en gras)
 
 
-Activite (__id__, nom, adresse, description, site, idAdminDerniereModif, dateDerniereModif)
+Activite (__id__, nom, adresse, description, site, id_admin_derniere_modif, date_derniere_modif)
 
-Evenement (__id__, idAct, nom, lieu, idOrga, date, heure, description, nbInscrits, nbPlaces, prix)
+Evenement (__id_evt__, id_act, date_evt, heure, description, nb_inscrits, nb_places, nom, id_orga, prix)
 
-Compte (__id__, nom, prenom, dateNaissance, genre, email, motDePasse, flagSuppression)
+Compte (__id__, nom, prenom, date_naissance, genre, email, mot_de_passe, flag_suppression)
 
-Admin (__id__, idCompte, dateDebut, dateFin)
+Admin (__id__, id_compte, date_debut, date_fin)
 
-Categorie (__id__, nom, idImg)
+Categorie (__id__, nom, id_img)
 
 Image (__id__, chemin)
 
-ImgAct (__idAct, idImg__, estPrincipale)
+Image_Activite (__id_act, id_img__, est_principale)
 
-ImgEvt (__idEvt, idImg__, estPrincipale)
+Image_Evenement (__id_evt, id_img__, est_principale)
 
-ImgCompte (__idCompte, idImg__, estPrincipale)
+Image_Compte (__id_compte, id_img__, est_principale)
 
-CollaborateurEvt (__idEvt, idCompte__)
+Collaborateur_Evenement (__id_evt, id_compte__)
 
-ParticipantEvt (__idEvt, idCompte__)
+Participant_Evenement (__id_evt, id_compte__)
 
-CatégorieAct (__idAct, idCat__)
+Catégorie_Activite (__id_act, id_cat__)
 
-CategorieFavoriteCompte (__idCompte, idCat__)
+Categorie_favorite_Compte (__id_cat, id_compte__)
 
-Ami (__idCompte1, idCompte2__)
+Ami (__id_compte1, id_compte2__)
