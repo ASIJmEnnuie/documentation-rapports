@@ -27,7 +27,9 @@
   * [spring-boot](http://projects.spring.io/spring-boot) est une solution du framework Java _Spring_ permettant la création autonome d'applications nécessitant très peu de configuration. Nous avons plus particulièrement utilisé _Spring Data JPA_ qui donne la possibilité d'utiliser facilement des applications nécessitant l'usage de technologies d'accès aux données. 
 
 
-  * [postgresql]()
+  * [PostgreSQL](https://www.postgresql.org/) est un système de gestion de bases de données relationnelles objet. Il nous a permis d'implémenter nos données selon un [schéma relationnelle](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/conception_BD/modeleBD.md) que nous avons dû définir.
+  	
+	Notre choix de SGBD s'est tout d'abord porté sur [MySQL](https://www.mysql.fr/) mais nous avons rencontré des problèmes de dépendances au lancement du projet. Nous avons également testé [MariaDB](https://mariadb.com/), une alternative à MySQL développée après son rachat, mais les résultats n'étaient pas plus concluants. 
 
 
 ## Ensemble du projet:
