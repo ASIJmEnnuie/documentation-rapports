@@ -12,7 +12,12 @@ La popularité de cette plateforme a fait que la majorité des librairies et fra
 
 Il est cependant bon de noter que le code que nous développions serait obligatoirement public compte tenu des tarifs assez élevés, nécessaires à la privatisation de dépôts.
 
+
 ## [Trello](https://trello.com)
 
 
 ## [Slack](https://slack.com)
+
+Un système de communication nous étant nécessaire, nous avons tout d'abord choisi d'utiliser Slack pour les nombreuses fonctionnalités qu'il présente: création de fils de discussion différents en fonction des sujets, lien avec GitHub ou Trello (bots informant de mis à jour), privatisation des discussions, ect ...
+
+Cependant il est vite apparu que pour un projet aussi "petit" en terme de temps et d'équipe, ce type d'outil était mal adapté, et nous avons préférer utiliser d'autres moyens de communication plus classiques.  
