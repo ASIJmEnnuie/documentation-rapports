@@ -6,10 +6,10 @@
 PAO "ASI J'm'ennuie" encadré par M.BAUCHER à l'INSA de Rouen
 
 Équipe composée de :
-* Enora Gicquel
-* Morgane LEGROS
-* Maëva SALLANDRE
-* Thibault THEOLOGIEN
+* [Enora GICQUEL](https://github.com/Kahmeset)
+* [Morgane LEGROS](https://github.com/morgane1806)
+* [Maëva SALLANDRE](https://github.com/Lueva)
+* [Thibault THEOLOGIEN](https://github.com/MacBootglass)
 
 Présentation :
 Le projet consiste à développer une application web de partage d'événements. evASIon est une plate-forme communautaire culturelle proposant aux utilisateurs la création d’événements quels qu’ils soient - musée, festival, concert, sport collectif, … - lorsqu’ils désirent trouver d’autres personnes avec qui partager leurs envies et loisirs.
