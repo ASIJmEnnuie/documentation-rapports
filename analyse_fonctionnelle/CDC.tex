@@ -1,22 +1,68 @@
-\subsection{Fondements du projet}
+\documentclass[a4paper,12pt]{article}
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}	%dimension de la feuille
+\usepackage[utf8]{inputenc}%codage linux
+\usepackage[T1]{fontenc}%les fontes
+\usepackage[french]{babel}%caractères français
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{hyperref}%liens pdf
+\usepackage{listings}%pour mettre du code
+\usepackage{color}%pour la couleur dans le code
+\usepackage{graphicx}%pour \includegraphics
+\usepackage{float}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\lstset{breaklines=true}
+\usepackage{verbatim}
 
-\subsubsection{But du projet}
+%%%%%%%%%%%%%%%%%%%% Presentation %%%%%%%%%%%%%%%%%%%
+\title{PAO\\ASI J'm'ennuie\\Cahier Des Charges}
+\author{Enora Gicquel\\Morgane LEGROS\\Maëva SALLANDRE\\Thibault THEOLOGIEN}
+\date{\today}
+
+
+\begin{document}
+\begin{titlepage}
+\vfill
+	\begin{figure}
+	\includegraphics[scale=0.3]{Images/logo_insa.pdf}
+	\end{figure}
+
+\maketitle
+
+A l'intention de M. Baucher, FONCTION et encadrant du PAO ASI J'm'ennuie.
+\vfill
+\noindent \hrulefill
+
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%% Corps %%%%%%%%%%%%%%%%%%%
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Fondements du projet}
+
+\subsection{But du projet}
 
 \textbf{• Contexte et objectifs du projet}
 
-Pour les amateurs de sorties et de découvertes, NomMarketing est une plate-forme communautaire culturelle proposant aux utilisateurs la création d’événements quels qu’ils soient - musée, festival, concert, sport collectif, … - lorsqu’ils désirent trouver d’autres personnes avec qui partager leurs envies et loisirs. Le site permettrait alors de partager ses expériences ou de découvrir de nouveaux endroits avec des individus souhaitant la même chose.
+Pour les amateurs de sorties et de découvertes, evASIon est une plate-forme communautaire culturelle proposant aux utilisateurs la création d’événements quels qu’ils soient - musée, festival, concert, sport collectif, … - lorsqu’ils désirent trouver d’autres personnes avec qui partager leurs envies et loisirs. Le site permettrait alors de partager ses expériences ou de découvrir de nouveaux endroits avec des individus souhaitant la même chose.
 
-\subsubsection{Personnes et organismes impliqués dans les enjeux du projet}
+\subsection{Personnes et organismes impliqués dans les enjeux du projet}
 
 \textbf{• Maître d’ouvrage}
 
 evASIon \\
-    
+
 \textbf{• Maître d’œuvre}
 
 evASIon
 
-\subsubsection{Utilisateurs du produit}
+\subsection{Utilisateurs du produit}
 
 \textbf{• Utilisateurs directs du produit}
 
@@ -24,7 +70,7 @@ Nous visons toutes sortes d’utilisateurs souhaitant se divertir en communauté
 
 \textbf{• Priorité assignée aux utilisateurs}
 
-Il y a trois types d’utilisateurs. Les non-inscrits : ils peuvent accéder à la page d'accueil avant connexion, avoir un aperçu du site et s'inscrire. Les inscrits : ils peuvent utiliser les fonctionnalités décrites dans la partie 3.3.2 de ce cahier des charges. Les administrateurs : qui, en plus des fonctionnalités autorisées aux utilisateurs, doivent gérer les informations envoyées par les utilisateurs et ont tout les droits d'ajout et de suppression. \\
+Il y a trois types d’utilisateurs. Les non-inscrits : ils peuvent accéder à la page d'accueil avant connexion, avoir un aperçu du site et s'inscrire. Les inscrits : ils peuvent utiliser les fonctionnalités décrites dans la partie \ref{Portée du produit} de ce cahier des charges. Les administrateurs : qui, en plus des fonctionnalités autorisées aux utilisateurs, doivent gérer les informations envoyées par les utilisateurs et ont tous les droits d'ajout et de suppression. \\
 
 \textbf{• Implication nécessaire de la part des utilisateurs dans le projet}
 
@@ -34,9 +80,9 @@ Les utilisateurs doivent renseigner leurs préférences après leur inscription,
 
 Aucune opération de maintenance n’est nécessaire par les utilisateurs simples. Le produit nécessite cependant un ou plusieurs administrateurs qui doivent contrôler les ajouts d'activités et de catégories encore non répertoriées sur le site, et donc mettre à jour l’application.
 
-\subsection{Contraintes sur le projet}
+\section{Contraintes sur le projet}
 
-\subsubsection{Contraintes non négociables}
+\subsection{Contraintes non négociables}
 
 \textbf{• Contraintes sur la conception de la solution}
 
@@ -54,7 +100,7 @@ Le produit sera accessible via un navigateur à travers n’importe quel support
 
 Le projet sera développé durant un semestre. A l’issu de ce semestre, le projet devra arriver à la version la plus avancée possible.
 
-\subsubsection{Glossaire et conventions de dénomination}
+\subsection{Glossaire et conventions de dénomination}
 
 Activité : L’activité représente le terme générique désignant aussi bien un lieu fixe (comme un musée), qu’une manifestation ponctuelle (comme un festival).
 
@@ -62,9 +108,9 @@ Activité : L’activité représente le terme générique désignant aussi bien
 
 Catégorie : Une catégorie désigne un mot-clé associé à une activité. Une activité pourra être liée à plusieurs catégories qui la décrivent. On peut faire l’analogie avec un système de tags.
 
-\subsection{Exigences fonctionnelles}
+\section{Exigences fonctionnelles}
 
-\subsubsection{Portée du travail}
+\subsection{Portée du travail}
 
 \textbf{• La situation actuelle}
 
@@ -74,7 +120,8 @@ Actuellement, il n’existe pas à notre connaissance d’applications permettan
 
 Le produit sera proposé sur le Web dans un premier temps, via l’utilisation d’un navigateur quelconque. Il pourra également être développé en application mobile dans une version future.
 
-\subsubsection{Portée du produit (cas d’utilisations)}
+\subsection{Portée du produit (cas d’utilisations)}
+\label{Portée du produit}
 
 \textbf{• Limites du produit}
 
@@ -97,16 +144,16 @@ L’utilisateur peut ajouter une activité à laquelle sera liée les événemen
 L'utilisateur peut ajouter de nouvelles catégories hiérarchisées.
 L'administrateur doit contrôler la création des activités et catégories.
 
-\subsubsection{Exigences fonctionnelles et exigences sur les données}
+\subsection{Exigences fonctionnelles et exigences sur les données}
 
 {
 \small
 \begin{longtable}{|p{0.5cm}|p{2cm}|p{6cm}|p{6cm}|}%|p{2cm}|p{3cm}|p{1cm}|p{1cm}|p{1cm}}
-\hline 
-\cellcolor{gray}{\textbf{ID}} & \cellcolor{gray}{\textbf{Catégorie (Wiegers)}} & \cellcolor{gray}{\textbf{Description}} & \cellcolor{gray}{\textbf{Justification}}\\ \hline \endhead  % & \cellcolor{gray}{\textbf{Origine}} & \cellcolor{gray}{\textbf{Critères de satisfaction}} & \cellcolor{gray}{\textbf{Contentement MOA}} & \cellcolor{gray}{\textbf{Mécontentement MOA}} & \cellcolor{gray}{\textbf{Exigences dépendantes}}\\ \hline \endhead  
+\hline
+\cellcolor{gray}{\textbf{ID}} & \cellcolor{gray}{\textbf{Catégorie (Wiegers)}} & \cellcolor{gray}{\textbf{Description}} & \cellcolor{gray}{\textbf{Justification}}\\ \hline \endhead  % & \cellcolor{gray}{\textbf{Origine}} & \cellcolor{gray}{\textbf{Critères de satisfaction}} & \cellcolor{gray}{\textbf{Contentement MOA}} & \cellcolor{gray}{\textbf{Mécontentement MOA}} & \cellcolor{gray}{\textbf{Exigences dépendantes}}\\ \hline \endhead
 
 \endfoot
- 
+
 1 & Exigence métier & L'interface doit être épurée & Pour faciliter l'utilisation et rendre accessible le site à tout le monde\\\hline% & Gestion de la plate-forme & Interface facile d'utilisation & 5 & 5 & \\\hline
 
 2 & Exigence fonctionnelle & Il doit apparaître une page d'accueil avant et après connexion & Pour donner un aperçu des fonctionnalités du site à l'utilisateur\\\hline %& Gestion de la plate-forme & Accueil différente quand connexion effectuée & 5 & 5 & \\\hline
@@ -120,12 +167,12 @@ L'administrateur doit contrôler la création des activités et catégories.
 11 & Exigence utilisateur & L'utilisateur ou l'administrateur doit associer une ou plusieurs catégories aux activités créées & Pour permettre la recherche par catégorie\\\hline %& Gestion des données & Chaque événement est lié au moins à une catégorie & 5 & 5 & \\\hline
 
 \caption{Extrait des Exigences Fonctionnelles}
-\end{longtable} 
+\end{longtable}
 }
 
-\subsection{Exigences non fonctionnelles}
+\section{Exigences non fonctionnelles}
 
-\subsubsection{Ergonomie et convivialité du produit}
+\subsection{Ergonomie et convivialité du produit}
 
 \textbf{• L’interface}
 
@@ -136,12 +183,12 @@ L’utilisateur doit avoir un accès rapide à ses préférences et pouvoir s’
 
 Le site internet doit susciter la confiance et le partage. Le produit doit apparaître comme étant moderne et avec une connotation culturelle.
 
-\subsubsection{Fonctionnement du produit}
+\subsection{Fonctionnement du produit}
 
 \textbf{• Maintenance du produit}
 
-Le site Web doit être mis à jour tout les .. , mais aussi en fonction des nouvelles fonctionnalités et mises à jours des outils utilisés. 
-La base de donnée doit être complétée au fur et à mesure, pour cela l’ajout d’une activité doit se faire en moins de 5 minutes. 
+Le site Web doit être mis à jour en fonction des nouvelles fonctionnalités et mises à jours des outils utilisés.
+La base de donnée doit être complétée au fur et à mesure, pour cela l’ajout d’une activité doit se faire en moins de 5 minutes.
 Le site Web doit être maintenu, mise à jour et contrôlé par les administrateurs, et certains développeurs ou utilisateurs autorisés.
 
 \textbf{• Exigences en matière de support}
@@ -153,17 +200,19 @@ Une interface FAQ doit être mis à disposition des utilisateurs afin de facilit
 
 Le produit doit fonctionner sur des environnements Linux, Windows et Mac, sur les navigateurs Mozilla, Chrome, Chromium, Internet Explorer. Le produit doit également fonctionner sur smartphone de type Android, Apple et Google. En ce qui concerne l’éventuelle application, elle devra être développée en priorité sur Android.
 
-\subsubsection{Maintenance, support, portabilité, installation du produit}
+\subsection{Maintenance, support, portabilité, installation du produit}
 
 \textbf{• Fiabilité et disponibilité}
 
-Le produit devrait être disponible pour une utilisation sans interruption tout au long de l’année.  
+Le produit devrait être disponible pour une utilisation sans interruption tout au long de l’année.
 
-\subsubsection{Sécurité}
+\subsection{Sécurité}
 
 Les comptes utilisateur devront être protégés par un mot de passe choisi par l’utilisateur. Ce mot de passe devra être crypté dans la base de données.
 La base de données devra être protégée par un mot de passe connu seulement des maîtres d’œuvre.
 
-\subsubsection{Exigences culturelles et politiques}
+\subsection{Exigences culturelles et politiques}
 
 Le produit devra être disponible en français et en anglais. Il faudra également avoir la possibilité de rajouter de nouvelles langues si besoins.
+
+\end{document}
