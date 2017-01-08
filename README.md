@@ -47,8 +47,8 @@ Spécifications :
 ## Analyse technique
 
 Percées techniques :
-* [Graphql-Relay](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/percee_technique/graphql-relay.md) ([dépôt](https://github.com/ASIJmEnnuie/PT_React))
-* [Reactjs-materialui](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/percee_technique/reactjs-materialui.md) ([dépôt](https://github.com/ASIJmEnnuie/PT_GraphQL))
+* [Graphql-Relay](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/percee_technique/graphql-relay.md) ([dépôt](https://github.com/ASIJmEnnuie/PT_GraphQL))
+* [Reactjs-materialui](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/percee_technique/reactjs-materialui.md) ([dépôt](https://github.com/ASIJmEnnuie/PT_React))
 * [Websockets](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/percee_technique/websockets.md) ([dépôt](https://github.com/ASIJmEnnuie/PT_WebSockets))
 
 Technologies non retenues :
@@ -64,7 +64,7 @@ Technologies non retenues :
 
 ## Conception
 
-* [Conteners docker](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) : Utilisation d'un contener docker pour l'execution du projet.
+* [Containers docker](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) : Utilisation d'un container docker pour l'execution du projet.
 
 * Projet : ([dépot evASIon](https://github.com/ASIJmEnnuie/evASIon)) reliant la partie client à la partie serveur.
 

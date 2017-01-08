@@ -2,7 +2,6 @@
 *15/09/2016*
 
 ## Participants
-Frédéric BAUCHER  
 [Maëva SALLANDRE](https://github.com/Lueva)  
 [Enora GICQUEL](https://github.com/Kahmeset)  
 [Morgane LEGROS](https://github.com/morgane1806)  
