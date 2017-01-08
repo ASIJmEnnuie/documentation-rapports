@@ -64,9 +64,13 @@ Technologies non retenues :
 
 ## Conception
 
+<<<<<<< HEAD
 * [Containers docker](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) : Utilisation d'un container docker pour l'execution du projet.
+=======
+* [Containers docker](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) : Utilisation d'un container docker pour l'exécution du projet.
+>>>>>>> master
 
-* Projet : ([dépot evASIon](https://github.com/ASIJmEnnuie/evASIon)) reliant la partie client à la partie serveur.
+* Projet : ([dépôt evASIon](https://github.com/ASIJmEnnuie/evASIon)) reliant la partie client à la partie serveur.
 
 * Tests : Nous n'avons pas eu le temps ni l'occasion de commencer à faire des tests sur ce projet.
 
@@ -81,11 +85,11 @@ Points positifs à retenir :
 * Nous avons chacun progressé en apprenant de nouvelles technologies ;
 * Ce projet nous a appris à faire face à de nouveau problème, et toujours repenser le projet afin d'avancer progressivement ;
 * L'architecture du projet a été bien faite, avec la séparation de la partie serveur et de la partie client. L'automatisation de l'exécution du projet a également été un succès, ce qui permettait de faire abstraction de l'environnement de développement ;
-* L'application a été développée selon un principe d'accessibilité (responsive design, multilangage, etc).
+* L'application a été développée selon un principe d'accessibilité (responsive design, multilingue, etc).
 
 État final du projet :
 * [Suivi projet](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/SuiviProjet.md)
-* L'objectif final du projet était d'arriver à faire les versions 1 et 2, cet objectif n'a pas été atteint complétement, du fait que la connexion à la BD n'a pas abouti.
+* L'objectif final du projet était d'arriver à faire les versions 1 et 2, cet objectif n'a pas été atteint complètement, du fait que la connexion à la BD n'a pas abouti.
 
 ## Perspectives d'avenir
 
