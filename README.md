@@ -68,6 +68,8 @@ Technologies non retenues :
 
 * Projet : ([dépôt evASIon](https://github.com/ASIJmEnnuie/evASIon)) reliant la partie client à la partie serveur.
 
+* [Exécution du projet](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/execution.md)
+
 * Tests : Nous n'avons pas eu le temps ni l'occasion de commencer à faire des tests sur ce projet.
 
 
