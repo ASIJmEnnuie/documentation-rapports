@@ -64,11 +64,7 @@ Technologies non retenues :
 
 ## Conception
 
-<<<<<<< HEAD
-* [Containers docker](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) : Utilisation d'un container docker pour l'execution du projet.
-=======
 * [Containers docker](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/containers_docker.md) : Utilisation d'un container docker pour l'exécution du projet.
->>>>>>> master
 
 * Projet : ([dépôt evASIon](https://github.com/ASIJmEnnuie/evASIon)) reliant la partie client à la partie serveur.
 
