@@ -16,15 +16,15 @@ Le projet consiste à développer une application web de partage d'événements.
 
 Méthode :
 * Le projet est dirigé par un cycle de développement en Y, qui consiste à effectuer en parallèle une Analyse fonctionnelle et une Analyse technique afin de passer à la Conception.
-* La gestion de projet se fait à l'aide des [outils GitHub, Trello et Slack](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/outils.md).
+* La gestion de projet se fait à l'aide des [outils de gestion de projet GitHub, Trello et Slack](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/environnement_developpement/outils.md).
 
 
 ## Analyse fonctionnelle
 
-Le projet a été construit en partant de aucune base, et développé à l'aide de technologies nouvelles pour les membres de l'équipe.
+Le projet a été construit en partant d'aucune base, et développé à l'aide de technologies nouvelles pour les membres de l'équipe.
 
 Définition du projet
-* Un [remue-méninge](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/analyse_fonctionnelle/brainstorming.md) s'est déroulé le 15/09/2016.
+* Un [remue-méninges](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/analyse_fonctionnelle/brainstorming.md) s'est déroulé le 15/09/2016.
 * A partir de celui-ci, une [Liste d'idées](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/analyse_fonctionnelle/liste_idees.md) a été créée.
 
 Objectifs
@@ -52,7 +52,7 @@ Percées techniques :
 * [Websockets](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/percee_technique/websockets.md) ([dépôt](https://github.com/ASIJmEnnuie/PT_WebSockets))
 
 Technologies non retenues :
-* Graphql
+* [Graphql](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/percee_technique/graphql-relay.md)
 * [Jhipster](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/analyse_technique/jhipster.md)
 
 
@@ -76,8 +76,8 @@ Technologies non retenues :
 ## Produit final
 
 Difficultés rencontrées :
-* Temps
-* De nombreux problèmes rencontrés pour la partie côté serveur : ...
+* Temps : Le projet partant de rien, nous avons du effectuer l'analyse, la conception et le développement entièrement, en plus de découvrir presque toutes les technologies utilisées, et donc de se former. Cela a donc pris énormément de temps et malgré cela nous avons plus ou moins toutes étapes du développement d'un projet, ce qui nous a été très bénéfique.
+* De nombreux problèmes rencontrés pour la partie côté serveur : Nous avons malheureusement perdu beaucoup de temps au niveau du développement côté serveur, principalement à cause des configurations et des connexions base de données/serveur. En effet nous avons eu notamment des problèmes de versions sur lesquels nous nous sommes attardés un peu trop longtemps tandis que cela n'était pas forcément indispensable. Nous avons pu au final contourner le problème grâce à Docker, mais le retard sur le projet s'est tout de même fait ressentir.
 
 Points positifs à retenir :
 * Nous avons chacun progressé en apprenant de nouvelles technologies ;
@@ -87,14 +87,14 @@ Points positifs à retenir :
 
 État final du projet :
 * [Suivi projet](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/SuiviProjet.md)
-* L'objectif final du projet était d'arriver à faire les versions 1 et 2, cet objectif n'a pas été atteint complètement, du fait que la connexion à la BD n'a pas abouti.
+* L'objectif final du projet était d'arriver à faire les versions 1 et 2, cet objectif n'a pas été atteint complètement, du fait que la connexion entre le client et le serveur n'est pas viable. En effet, même si la connexion est effectuée, et que le serveur envoie les bonnes données au client, le client lui ne reçoit pas le bon format.
 
 ## Perspectives d'avenir
 
 Fonctionnalités à développer en premier lieu :
-* Connexion à la BD ;
+* Connexion entre le client et le serveur à réparer ;
 * Créer l'interface administrateur ;
-* Faire des tests.
+* Faire des tests, notamment côté serveur.
 
 Idées de développement du projet
 * [Maquettes futures](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/maquettes/maquette_version_future/maquettes_Version_Future.pdf)
