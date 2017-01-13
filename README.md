@@ -39,7 +39,7 @@ Spécifications :
 * DSE :
   * [Maquettes](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/maquettes/maquettes_V2.1.pdf)
 * DSI :
-  * [Modèle de domaine](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/diagrammes/modele_domaine/modele_domaine_v1.svg)
+  * [Modèle de domaine](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/diagrammes/modele_domaine/modele_domaine_v1.png)
   * [Modèle de BD](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/conception_BD/modeleBD.md)
   * [Signatures BD](https://github.com/ASIJmEnnuie/documentation-rapports/blob/master/signatures.md)
 
